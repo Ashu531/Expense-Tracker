@@ -1,0 +1,23 @@
+
+.responsive-table-container {
+  overflow-x: auto; 
+  margin-bottom: 20px;
+}
+
+.responsive-table {
+  width: 100%; 
+}
+
+@media screen and (max-width: 768px) {
+  .ant-table-wrapper .ant-table {
+    border-radius: 0; 
+  }
+
+  .ant-table-thead th {
+    white-space: nowrap; 
+  }
+
+  .ant-table-tbody td {
+    white-space: nowrap;
+  }
+}

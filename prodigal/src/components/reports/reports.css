@@ -1,0 +1,14 @@
+.reports-container {
+    padding: 20px;
+  }
+  
+  .chart-container {
+    margin-bottom: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-container {
+      height: 300px;
+    }
+  }
+  

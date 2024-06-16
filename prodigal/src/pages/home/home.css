@@ -1,0 +1,49 @@
+.home-container{
+  padding: 24px;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-modal-content {
+  max-width: 100%; 
+}
+
+.ant-modal-body {
+  padding: 24px;
+}
+
+.responsive-table-container {
+  overflow-x: auto; 
+  padding: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .ant-modal-header {
+    padding: 12px 24px;
+  }
+
+  .ant-modal-body {
+    padding: 24px;
+  }
+
+  .responsive-table-container {
+    width: 100%;
+    padding: 24px 24px 24px 0px;
+  }
+
+  .ant-table-wrapper .ant-table {
+    border-radius: 0;
+  }
+
+  .ant-table-thead th {
+    white-space: nowrap;
+  }
+
+  .ant-table-tbody td {
+    white-space: nowrap;
+  }
+}
